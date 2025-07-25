@@ -7,8 +7,8 @@
   --divider: #e0e0e0;
   --accent: #e3f2fd;
   --shadow: 0 4px 20px rgba(33, 33, 33, 0.08);
-  --avatar-size: 72px;
-  --radius: 16px;
+  --avatar-size: 90px;
+  --radius: 18px;
 }
 
 body {
@@ -45,7 +45,7 @@ header.profile-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.3rem;
+  gap: 1.4rem;
   margin-bottom: 0.7rem;
 }
 
@@ -53,7 +53,7 @@ header.profile-header {
   width: var(--avatar-size);
   height: var(--avatar-size);
   border-radius: 50%;
-  border: 3px solid var(--primary);
+  border: 4px solid var(--primary);
   box-shadow: 0 2px 8px rgba(33,33,33,0.10);
   object-fit: cover;
   background: var(--accent);
